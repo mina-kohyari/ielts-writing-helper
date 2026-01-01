@@ -61,7 +61,7 @@ def analyze_text(text: str):
     print(f"\n Linking words used: {connector_count}")
 
     # ---- Final Tips ----
-    print("\n💡 IELTS Improvement Tips:")
+    print("\n IELTS Improvement Tips:")
     tips = get_tips(
         word_count=word_count,
         long_sentence_count=len(long_sentences),
