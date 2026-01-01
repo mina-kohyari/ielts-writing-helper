@@ -4,7 +4,7 @@ from collections import Counter
 from statistics import mean
 from ielts_helper.tips import get_tips
 
-def analyze_text(text: str, as_json: bool = False):
+def analyze_essay(text: str, as_json: bool = False):
     words = re.findall(r"\b[a-zA-Z]+\b", text.lower())
     sentences = re.split(r"[.!?]+", text)
     paragraphs = [p for p in text.split("\n") if p.strip()]
