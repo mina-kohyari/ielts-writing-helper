@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: ielts-writing-helper
+Version: 0.1.0
+Summary: A CLI tool to help IELTS students improve writing
+Home-page: https://github.com/mina-kohyari/ielts-writing-helper
+Author: Your Name
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# IELTS Writing Helper
+
+A Python CLI tool to analyze IELTS essays and give estimated band scores.
+
+## Installation
+pip install -e .
+
+## Usage
+ielts check essay.txt
+ielts check essay.txt --json
+
+## License
+MIT

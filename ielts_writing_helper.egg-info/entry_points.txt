@@ -1,0 +1,2 @@
+[console_scripts]
+ielts = ielts_helper.cli:main
